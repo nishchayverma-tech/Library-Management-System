@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.backg{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(book-library-with-open-textbook_1150-5920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.dash{
+    width: 350px;
+    height: 560px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.dash h2{
+    width: 320px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.dash button{
+    width: 280px;
+    height: 45px;
+    background: #ff7200;
+    border: none;
+    margin-top: 38px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    margin-left: 33px ;
+}
+button:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.dash a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

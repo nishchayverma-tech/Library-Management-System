@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.back{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%), url(trnava-university-sd8uJsf4XM4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.page{
+    width: 350px;
+    height: 530px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 50px;
+    left: 430px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.page input{
+    width: 260px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 47px;
+
+}
+.page h2{
+    width: 320px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.page input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 38px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    margin-left: 53px ;
+
+}
+
+.btn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
